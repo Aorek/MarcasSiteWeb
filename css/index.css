@@ -19,9 +19,16 @@
 
 	header h1 {
 		text-align: center;
-		align-items: center;
-  		display: flex;
-  		margin-left: 20%;
+  		display: inline-block;
+  		position: relative;
+  		bottom: 20px;
+	}
+	
+	header img {
+		display: inline-block;
+		position: relative;
+		top: 25px;
+		right: 10%;
 	}
 
 	#iconosSociales{
@@ -31,15 +38,15 @@
 	}
 
 	nav {
-		padding: 0 15%;
+		width: 65%;
+		margin: 2em auto;
 	}
 
 	section {
 		/*background-color: #EAEAEA;*/
-		height: 1000px;
+		height: 2000px;
 		width: 65%;
-		margin: auto;
-		margin-top: 2em;
+		margin: 2em auto;
 		z-index: -1;
 	}
 

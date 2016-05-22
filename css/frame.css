@@ -1,5 +1,7 @@
 body {
 	background-color: white;
+	font-family: 'Sacramento', cursive;
+	font-size: 25px;
 }
 
 .divSections {
@@ -7,7 +9,7 @@ body {
 }
 
 table {
-	max-width: 700px;
+	max-width: 900px;
 	margin: auto;
 }
 
