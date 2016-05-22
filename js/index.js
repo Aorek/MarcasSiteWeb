@@ -13,8 +13,14 @@ function iconoGoogle(number){
 	document.getElementById('iconGoogle').src = "./images/" + iconImages[number];
 }
 
-function desplegar(){
-	
+function ver(number){
+	document.getElementById('desplegado' + number).style.display='block';
 }
+
+function ocultar (number){
+	document.getElementById('desplegado' + number).style.display='none';
+}
+
+
 
 
