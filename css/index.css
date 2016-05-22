@@ -123,7 +123,7 @@
 	
 	.divSection {
 	max-width: 950px;
-	margin: auto;
+	margin: 1em auto;
 	}
 	
 	table {
@@ -136,15 +136,10 @@
 		padding: 0 20px;
 	}
 	
-	div.celdaIcon p{
-		display: inline-block;
-	}
-	
-	div.celdaIcon h3{
+	div.celdaIcon p, div.celdaIcon h3{
 		display: inline-block;
 	}
 	
 	aside {
 		display: inline-block;
-		float: left;
 	}
