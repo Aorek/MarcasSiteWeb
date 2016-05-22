@@ -17,8 +17,11 @@
 		text-align: center;
 	}
 
-	header h1{
-		display: inline-block;
+	header h1 {
+		text-align: center;
+		align-items: center;
+  		display: flex;
+  		margin-left: 20%;
 	}
 
 	#iconosSociales{
