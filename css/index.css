@@ -100,22 +100,51 @@
 	}
 	
 	section {
-		height: 2000px;
 		width: 65%;
 		margin: 2em auto;
 		position: relative;
-		z-index: -1;
-		
-	}
-
-	section iframe {
-		height: 100%;
-		width: 100%;
+		z-index: 0;
+		background-color: white;
 		opacity: 0.97;
 		
 	}
 	
+	h2, h3 {
+	color: #3399ff;
+	}
+	
+	h2 {
+		font-size: 30px;
+	}
+	
+	h3 {
+		font-size: 30px;
+	}
+	
+	.divSection {
+	max-width: 950px;
+	margin: auto;
+	}
+	
+	table {
+		width: 100%;
+		text-align: justify;
+	}
+	
+	.celdaServicios {
+		width: 300px;
+		padding: 0 20px;
+	}
+	
+	div.celdaIcon p{
+		display: inline-block;
+	}
+	
+	div.celdaIcon h3{
+		display: inline-block;
+	}
+	
 	aside {
 		display: inline-block;
-		float: right;
+		float: left;
 	}
