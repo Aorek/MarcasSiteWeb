@@ -13,4 +13,8 @@ function iconoGoogle(number){
 	document.getElementById('iconGoogle').src = "./images/" + iconImages[number];
 }
 
+function desplegar(){
+	
+}
+
 
