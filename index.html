@@ -13,7 +13,7 @@
 	<body>
 		<header>
 			<h1>Escuela infantil --</h1>
-			<div id="socialesIconos">
+			<div id="iconosSociales">
 				<a href="https://www.facebook.com/" target="_blank">
 					<img id="iconFabe" src="./images/facebBW.png" width="32" height="32" onmouseover="iconoFaceb(1)" onmouseout="iconoFaceb(0)"></a>
 				<a href="https://twitter.com/?lang=es" target="_blank">
@@ -36,18 +36,18 @@
 					</li>
 				</a>
 
-			  <li class="desplegable">
+			  <li class="desplegable" onmouseover='ver(1)' onmouseout='ocultar(1)'>
 			  	<p>Conócenos</p>
-						<div class="desplegado">
+						<div id="desplegado1" >
 				      <a href="profesores.html" target="mainIframe">Nuestros profesores</a>
 				      <a href="#">Nuestra escuela</a>
 				      <a href="#">Nuestros valores</a>
 		    		</div>
 			  </li>
 
-			  <li class="desplegable">
-			  	<p class="dropbtn">Sección 4</p>
-						<div class="desplegado">
+			  <li class="desplegable" onmouseover='ver(2)' onmouseout='ocultar(2)'>
+			  	<p>Sección 4</p>
+						<div id="desplegado2">
 				      <a href="#">Link 1</a>
 				      <a href="#">Link 2</a>
 				      <a href="#">Link 3</a>
