@@ -4,57 +4,32 @@
 		font-size: 25px;
 	}
 	
-	header, nav, footer{
+	header, footer{
 		width: 100%;
-		margin: auto;
-		margin-top: 2em;
-	}
-
-	header {
-		background-color: #2864B5;
+		margin-top: 1em;
+		background-color: #3399ff;
 		border-top: 5px solid #53D19A;
 		border-bottom: 5px solid #53D19A;
-		text-align: center;
 	}
 
-	header h1 {
-		text-align: center;
-  		display: inline-block;
-  		position: relative;
-  		bottom: 20px;
+	#logo {
+		position: relative;
+		top: 5px;
+		margin: 0 auto;
 	}
 	
-	header img {
+	#div-img-header {
+		width: 20%;
 		display: inline-block;
-		position: relative;
-		top: 25px;
-		right: 10%;
-	}
-
-	#iconosSociales{
-		display: inline-block;
-		position: relative;
-		left: 25%;
+		padding-left: 10%;
 	}
 
 	nav {
-		width: 65%;
-		margin: 2em auto;
-	}
-
-	section {
-		/*background-color: #EAEAEA;*/
-		height: 2000px;
-		width: 65%;
-		margin: 2em auto;
-		z-index: -1;
-	}
-
-	section iframe {
-		height: 100%;
-		width: 100%;
-		opacity: 0.97;
-
+		width: 55%;
+		display: inline-block;
+		position: relative;
+		bottom: 0.8em;
+		font-size: 27px;
 	}
 
 	ul {
@@ -65,8 +40,11 @@
 	}
 
 	li {
+		min-width: 110px;
+		text-align: center;
 	    float: left;
-	    background-color: #2864B5;
+	   	background-color: #2864B5
+	    opacity: 0.95;
 	    margin: 0 1em;
 	    border-radius: 15px;
 	}
@@ -75,19 +53,23 @@
 	    display: inline-block;
 	    color: white;
 	    text-align: center;
-	    padding: 0 10px;
 	    text-decoration: none;
 	}
 
 	li:hover{
-	    background-color: #A16225;
+	    background-color: #ffc34d;
+	    
+	}
+	
+	li:hover p {
+		color: black;
 	}
 
 	li.desplegable {
 	    display: inline-block;
 	}
 
-	#desplegado1, #desplegado2 {
+	#desplegado {
 	    display: none;
 	    position: absolute;
 	    background-color: #f9f9f9;
@@ -97,7 +79,7 @@
 	    z-index: 1;
 	}
 
-	#desplegado1 a, #desplegado2 a {
+	#desplegado a {
 	    color: black;
 	    padding: 12px 16px;
 	    text-decoration: none;
@@ -105,14 +87,35 @@
 	    text-align: left;
 	}
 
-	.desplegado a:hover {
-		background-color: #f1f1f1;
+	#desplegado a:hover {
+		background-color: #e6e6e6;
 		border-radius: 15px;
 	}
-
-	footer div{
-		background-color: #2864B5;
-		border-top: 5px solid #D17153;
-		border-bottom: 5px solid #D17153;
+	
+	#iconosSociales{
+		display: inline-block;
+		position: relative;
+		left: 4%;
+		bottom: 5px;
+	}
+	
+	section {
+		height: 2000px;
+		width: 65%;
+		margin: 2em auto;
+		position: relative;
+		z-index: -1;
 		
+	}
+
+	section iframe {
+		height: 100%;
+		width: 100%;
+		opacity: 0.97;
+		
+	}
+	
+	aside {
+		display: inline-block;
+		float: right;
 	}

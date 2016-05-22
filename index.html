@@ -11,25 +11,18 @@
 		<script type="text/javascript" src="js/index.js"></script>
 	</head>
 	<body>
+		
 		<header>
-			<img id="logo" src="./images/cohete-titulado.png" width="150" height="150">
-			<h1>Escuela Infantil Pequeños Astronautas</h1>
-			<div id="iconosSociales">
-				<a href="https://www.facebook.com/" target="_blank">
-					<img id="iconFabe" src="./images/facebBW.png" width="32" height="32" onmouseover="iconoFaceb(1)" onmouseout="iconoFaceb(0)"></a>
-				<a href="https://twitter.com/?lang=es" target="_blank">
-					<img id="iconTwitter" src="./images/twitterBW.png" width="32" height="32" onmouseover="iconoTwitter(3)" onmouseout="iconoTwitter(2)"></a>
-				<a href="https://plus.google.com/" target="_blank">
-					<img id="iconGoogle" src="./images/googleBW.png" width="32" height="32" onmouseover="iconoGoogle(5)" onmouseout="iconoGoogle(4)"></a>
+			<div id='div-img-header'>
+				<img id="logo" src="./images/cohete-titulado.png" width="150" height="150">
 			</div>
-		</header>
-		<nav>
+			<nav>
 			<ul>
 				<a href="./inicio.html" target="mainIframe">
 				  <li class="desplegable">
 				  	<p>Inicio</p>
 				  </li>
-			  </a>
+				</a>
 				
 				<a href="./servicios.html" target="mainIframe">
 					<li class="desplegable">
@@ -37,16 +30,16 @@
 					</li>
 				</a>
 
-			  <li class="desplegable" onmouseover='ver(1)' onmouseout='ocultar(1)'>
-			  	<p>Conócenos</p>
-						<div id="desplegado1" >
-				      <a href="profesores.html" target="mainIframe">Nuestros profesores</a>
-				      <a href="#">Nuestra escuela</a>
-				      <a href="#">Nuestros valores</a>
-		    		</div>
-			  </li>
+				<li class="desplegable" onmouseover='verMenu()' onmouseout='ocultarMenu()'>
+					<p>Conócenos</p>
+					<div id="desplegado" >
+					    <a href="profesores.html" target="mainIframe">Nuestros profesores</a>
+					    <a href="#">Nuestra escuela</a>
+					    <a href="#">Nuestros valores</a>
+					</div>
+				</li>
 
-			  <a href="./contacto.html" target="mainIframe">
+				<a href="./contacto.html" target="mainIframe">
 					<li class="desplegable">
 						<p>Contacto</p>
 					</li>
@@ -54,9 +47,24 @@
 
 			</ul>
 		</nav>
+		
+		<div id="iconosSociales">
+			<a href="https://www.facebook.com/" target="_blank">
+				<img id="iconFabe" src="./images/facebBW.png" width="32" height="32" onmouseover="iconoFaceb(1)" onmouseout="iconoFaceb(0)"></a>
+			<a href="https://twitter.com/?lang=es" target="_blank">
+				<img id="iconTwitter" src="./images/twitterBW.png" width="32" height="32" onmouseover="iconoTwitter(3)" onmouseout="iconoTwitter(2)"></a>
+			<a href="https://plus.google.com/" target="_blank">
+				<img id="iconGoogle" src="./images/googleBW.png" width="32" height="32" onmouseover="iconoGoogle(5)" onmouseout="iconoGoogle(4)"></a>
+		</div>
+			
+		</header>
+		
 		<section>
 			<iframe name="mainIframe" src="./inicio.html" frameBorder="0"></iframe>
 		</section>
+		<aside>
+			
+		</aside>
 		<footer>
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>
 		</footer>

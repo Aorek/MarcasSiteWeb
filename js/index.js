@@ -13,12 +13,12 @@ function iconoGoogle(number){
 	document.getElementById('iconGoogle').src = "./images/" + iconImages[number];
 }
 
-function ver(number){
-	document.getElementById('desplegado' + number).style.display='block';
+function verMenu(){
+	document.getElementById('desplegado').style.display='block';
 }
 
-function ocultar (number){
-	document.getElementById('desplegado' + number).style.display='none';
+function ocultarMenu(){
+	document.getElementById('desplegado').style.display='none';
 }
 
 
