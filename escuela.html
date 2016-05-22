@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Escuela Infantil Pequeños Astronautas</title>
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		
+		<header>
+			<div id='div-img-header'>
+				<img id="logo" src="./images/cohete-titulado.png" width="150" height="150">
+			</div>
+			<nav>
+			<ul>
+				<a href="./index.html">
+				  <li class="desplegable">
+				  	<p>Inicio</p>
+				  </li>
+				</a>
+				
+				<a href="./servicios.html">
+					<li class="desplegable">
+						<p>Servicios</p>
+					</li>
+				</a>
+
+				<li class="desplegable" onmouseover='verMenu()' onmouseout='ocultarMenu()'>
+					<p>Conócenos</p>
+					<div id="desplegado" >
+					    <a href="profesores.html">Nuestros profesores</a>
+					    <a href="escuela.html">Nuestra escuela</a>
+					</div>
+				</li>
+
+				<a href="./contacto.html">
+					<li class="desplegable">
+						<p>Contacto</p>
+					</li>
+				</a>
+
+			</ul>
+		</nav>
+		
+		<div id="iconosSociales">
+			<a href="https://www.facebook.com/" target="_blank">
+				<img id="iconFabe" src="./images/facebBW.png" width="32" height="32" onmouseover="iconoFaceb(1)" onmouseout="iconoFaceb(0)"></a>
+			<a href="https://twitter.com/?lang=es" target="_blank">
+				<img id="iconTwitter" src="./images/twitterBW.png" width="32" height="32" onmouseover="iconoTwitter(3)" onmouseout="iconoTwitter(2)"></a>
+			<a href="https://plus.google.com/" target="_blank">
+				<img id="iconGoogle" src="./images/googleBW.png" width="32" height="32" onmouseover="iconoGoogle(5)" onmouseout="iconoGoogle(4)"></a>
+		</div>
+			
+		</header>
+		<section id='profesoresSection'>
+			
+		</section>
+	</body>
+</html>
