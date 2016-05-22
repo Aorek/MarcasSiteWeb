@@ -1,6 +1,7 @@
 body{
 			background: url("images/fondo.gif");
-			font-family: "Comic Sans MS";
+			font-family: 'Sacramento', cursive;
+			font-size: 25px;
 		}
 		
 		header, nav, footer{
