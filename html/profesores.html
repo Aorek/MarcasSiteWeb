@@ -8,13 +8,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		
+		<script type="text/javascript" src="js/menuDesplegable.js"></script>
 		<script type="text/javascript" src="../js/content.js"></script>
+		
 	</head>
 	<body>
 		
 		<header>
 			<div id='div-img-header'>
-				<img id="logo" src="../images/cohete-titulado.png" width="150" height="150">
+				<img id="logo" src="../images/cohete-titulado.png">
 			</div>
 			<nav>
 			<ul>
@@ -34,7 +37,7 @@
 					<p>Conócenos</p>
 					<div id="desplegado" >
 					    <a href="./profesores.html">Nuestros profesores</a>
-					    <a href="./escuela.html">Nuestra escuela</a>
+					    <a href="./galeria.html">Galería de imagenes</a>
 					</div>
 				</li>
 
@@ -57,17 +60,27 @@
 		</div>
 			
 		</header>
-		<section id='profesoresSection'>
-			<div class=divSection>
-				<h3>Nuestro Equipo Docente</h3>
-				<p>El equipo educativo de la escuela infantil Pequeños Astronautas está entregado a una sola causa: que los niños disfruten. Educamos y cuidamos siempre bajo esta idea. 
-Somos 16 personas: una psicopedagoga, 7 educadoras y 8 técnicos en educación infantil. Todas ellas han realizado cursos de primeros auxilios infantiles y participan en el cuidado y en la educación que tu hijo va a recibir a lo largo de su estancia en Los Pinos.
-
-Nos sentimos muy orgullosos y agradecidos por tenerlas con nosotros. Su carácter, su paciencia, su cariño con los pequeños son valores imprescindibles. Somos una pequeña gran familia, y queremos ser tu escuela infantil en Madrid.</p>
-<img id="profesores" src="../images/fotos/profesores.jpg">
- 
-			</div>
-		</section>
+		<div id='contenedor'>
+			<section id='profesoresSection'>
+				<div class=divSection>
+					<h3>Nuestro Equipo Docente</h3>
+					<p>Texto aquí</p>
+					<iframe src="../xml/profesores.xml" frameborder="0" scrolling=no>
+	 
+				</div>
+			</section>
+			<aside>
+				<h3>Zona de Papás</h3>
+				<form id='login' name='login'>
+					<div>Usuario</div>
+					<input type="text" name="usuario"/>
+					<div>Contraseña</div>
+					<input type="password" name="pass"/>
+					<input type="submit" value="Iniciar sesión"/>
+				</form>
+				<a href='#'>Olvidé la contraseña</a>
+			</aside>
+		</div>
 	</body>
 	<footer>
 		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>

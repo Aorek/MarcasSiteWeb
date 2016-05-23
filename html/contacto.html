@@ -8,13 +8,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		
+		<script type="text/javascript" src="js/menuDesplegable.js"></script>
 		<script type="text/javascript" src="../js/content.js"></script>
+		
 	</head>
 	<body>
 		
 		<header>
 			<div id='div-img-header'>
-				<img id="logo" src="../images/cohete-titulado.png" width="150" height="150">
+				<img id="logo" src="../images/cohete-titulado.png">
 			</div>
 			<nav>
 			<ul>
@@ -34,7 +37,7 @@
 					<p>Conócenos</p>
 					<div id="desplegado" >
 					    <a href="./profesores.html">Nuestros profesores</a>
-					    <a href="./escuela.html">Nuestra escuela</a>
+					    <a href="./galeria.html">Galería de imagenes</a>
 					</div>
 				</li>
 
@@ -57,12 +60,12 @@
 		</div>
 			
 		</header>
-		<section name="contacto">
-			<div class=divSections>
+		<div id='contenedor'>
+			<section name="contacto">
 				<h2>Contacta con nosotros</h2>
 				<div id="formulario">
 					<form>
-						<h2>Recibe Nuestra Informacion</h2>
+						<h3>Recibe Nuestra Informacion</h3>
 						<span>Nombre:</span></br>
 						<input size="14" type="text" name="Nombre" value="" /></br>
 						<span>Apellidos:</span></br>
@@ -80,10 +83,23 @@
 					<p>Telefono: 91685479999</p>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.9308697865185!2d-3.8598801848573996!3d40.476794359908624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41846582414961%3A0xe082b3d047b02889!2sCalle+Romero%2C+2%2C+28221+Majadahonda%2C+Madrid!5e0!3m2!1ses!2ses!4v1463924050022" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
-			</div>
-		</section>
+			</section>
+			<aside>
+				<h3>Zona de Papás</h3>
+				<form id='login' name='login'>
+					<div>Usuario</div>
+					<input type="text" name="usuario"/>
+					<div>Contraseña</div>
+					<input type="password" name="pass"/>
+					<input type="submit" value="Iniciar sesión"/>
+				</form>
+				<a href='#'>Olvidé la contraseña</a>
+			</aside>
+		</div>
 		<footer>
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>
+			<div>
+				
+			</div>
 		</footer>
 	</body>
 </html>

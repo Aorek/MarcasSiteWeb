@@ -8,13 +8,17 @@
 		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+		
 		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/menuDesplegable.js"></script>
+		<script type="text/javascript" src="js/carrusel.js"></script>
+		
 	</head>
 	<body>
 		
 		<header>
 			<div id='div-img-header'>
-				<img id="logo" src="./images/cohete-titulado.png" width="150" height="150">
+				<img id="logo" src="./images/cohete-titulado.png">
 			</div>
 			<nav>
 			<ul>
@@ -34,7 +38,7 @@
 					<p>Conócenos</p>
 					<div id="desplegado" >
 					    <a href="./html/profesores.html">Nuestros profesores</a>
-					    <a href="./html/escuela.html">Nuestra escuela</a>
+					    <a href="./html/galeria.html">Galería de imagenes</a>
 					</div>
 				</li>
 
@@ -57,47 +61,85 @@
 		</div>
 			
 		</header>
+		<div id='contenedor'>
+			<section id='indexSection'>
+				<div id='carrusel'>
+					<img id='imageCarrusel' src="./images/fotos/niños1.jpg" width='720' height='360'></img>
+					<div id='prevDiv'>
+						<img id='prev' src="./images/prev.png" width='45' height='45' onmouseover="cambiarFlechaPrev('Push')" onmouseout="cambiarFlechaPrev('')" onclick='carruselPrev()'></img>
+					</div>
+					<div id='nextDiv'>
+						<img id='next' src="./images/next.png" width='45' height='45' onmouseover="cambiarFlechaNext('Push')" onmouseout="cambiarFlechaNext('')" onclick='carruselNext()'></img>
+					</div>
+				</div>
+				<p>En Pequeños Astronautas Escuela Infantil te ayudamos a cuidar y educar a los que más quieres. 
+				<p>Somos una escuela infantil en Majadahonda con varios años de experiencia en Educación Infantil de primer ciclo (de 0 a 3 años).</p> 
+				Nuestro objetivo es introducir a los niños en el aprendizaje pero, sobre todo, que sean felices, porque un niño feliz aprende con facilidad.</p>
 		
-		<section>
-			<h2>Esto es la pagina de inicio</h2>
-			<p>En Pequeños Astronautas Escuela Infantil te ayudamos a cuidar y educar a los que más quieres. 
-			<p>Somos una escuela infantil en Majadahonda con varios años de experiencia en Educación Infantil de primer ciclo (de 0 a 3 años).</p> 
-			Nuestro objetivo es introducir a los niños en el aprendizaje pero, sobre todo, que sean felices, porque un niño feliz aprende con facilidad.</p>
-	
-			<p>Día a día, todo el equipo educativo nos esforzamos por respetar y acompañar al niño en el proceso de maduración de su personalidad de forma global:
-			intelectual, psicomotor y social, potenciando todas sus posibilidades a través de un proyecto educativo integral.</p>
-	
-			En nuestra escuela infantil nos planteamos un tipo de centro creativo, activo, realista, concreto y muy cercano a la realidad. 
-			Contamos, para conseguirlo, con un equipo de profesionales con amplia experiencia, 
-			en el cual trabajan conjuntamente docentes especializados y titulados en educación infantil, psicomotricidad, inglés y música.
-	
-			En estas primeras etapas, consideramos fundamental la colaboración y el apoyo a los padres. 
-			Por eso los progenitores también tienen su espacio, colaborando activamente con los docentes en la labor pedagógica.
-	
-			En nuestra escuela infantil apostamos por la excelencia en el trato con las familias, cuidando de los alumnos y de su educación.
-	
-			Horarios amplios y flexibles.
-			Amplio calendario. Nuestro centro cierra únicamente los días de fiesta y la primera quincena de agosto.
-			Gestión de entrada y salida mediante lectura de huella dactilar.
-			Centro concertado con el Colegio Bristol.
-			Precios especiales. Valoramos la situación de cada familia, con tarifas adaptadas 
-			para un progenitor en paro y en busca de empleo, más de un hermano en la escuela, familias numerosas…
-			Gestión de cheques guardería tanto de la Comunidad de Madrid como de diversas entidades privadas.
-			Nuestro centro está homologado por la comunidad de Madrid y, por tanto, 
-			nos atenemos a los conocimientos exigidos por la misma. Además ponemos un especial interés en la educación en valores, 
-			la educación emocional, el aprendizaje del inglés desde el año, el desarrollo de la persona y la autonomía personal. 
-			En resumen, todo aquello que contribuya a hacer de nuestros niños, en el futuro, personas con valores, libertad y responsabilidad.
-			</p>
-		</section>
-		<aside>
-			<div>Prueba de aside</div>
-		</aside>
+				<p>Día a día, todo el equipo educativo nos esforzamos por respetar y acompañar al niño en el proceso de maduración de su personalidad de forma global:
+				intelectual, psicomotor y social, potenciando todas sus posibilidades a través de un proyecto educativo integral.</p>
+		
+				
+			</section>
+			<aside>
+				<h3>Zona de Papás</h3>
+				<form id='login' name='login'>
+					<div>Usuario</div>
+					<input type="text" name="usuario"/>
+					<div>Contraseña</div>
+					<input type="password" name="pass"/>
+					<input type="submit" value="Iniciar sesión"/>
+				</form>
+				<a href='#'>Olvidé la contraseña</a>
+			</aside>
+		</div>
 		<footer>
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>
+			<div id="divFooter">
+		    <div class="cajaFooter">
+          <ul class = "ulfooter">
+              <li><a href="./html/enconstruccion.html">Aviso legal</a></li>
+              <li><a href="./html/enconstruccion.html">Política de privacidad</a></li>
+              <li><a href="./html/enconstruccion.html">Política de cookies</a></li>
+          </ul>
+    		</div>
+
+	      <div class="cajaFooter">
+	          <ul class = "lista_footer">
+	              <li><a href="./html/mapaWeb.html">Mapa web de la página</a></li>
+	              <li><a href="./html/contacto.html">Contacto</a></li>
+	          </ul>
+	      </div>
+      
+	      <div class="cajaFooter">
+	          <img src="./images/img1.jpg" width='100px' height='50px'>
+	          <img src="./images/img2.jpg" width='100px' height='50px'>
+	      </div>
+			</div>
 		</footer>
 	</body>
 </html>
 
+
+<!-- En nuestra escuela infantil nos planteamos un tipo de centro creativo, activo, realista, concreto y muy cercano a la realidad. 
+				Contamos, para conseguirlo, con un equipo de profesionales con amplia experiencia, 
+				en el cual trabajan conjuntamente docentes especializados y titulados en educación infantil, psicomotricidad, inglés y música.
+		
+				En estas primeras etapas, consideramos fundamental la colaboración y el apoyo a los padres. 
+				Por eso los progenitores también tienen su espacio, colaborando activamente con los docentes en la labor pedagógica.
+		
+				En nuestra escuela infantil apostamos por la excelencia en el trato con las familias, cuidando de los alumnos y de su educación.
+		
+				Horarios amplios y flexibles.
+				Amplio calendario. Nuestro centro cierra únicamente los días de fiesta y la primera quincena de agosto.
+				Gestión de entrada y salida mediante lectura de huella dactilar.
+				Centro concertado con el Colegio Bristol.
+				Precios especiales. Valoramos la situación de cada familia, con tarifas adaptadas 
+				para un progenitor en paro y en busca de empleo, más de un hermano en la escuela, familias numerosas…
+				Gestión de cheques guardería tanto de la Comunidad de Madrid como de diversas entidades privadas.
+				Nuestro centro está homologado por la comunidad de Madrid y, por tanto, 
+				nos atenemos a los conocimientos exigidos por la misma. Además ponemos un especial interés en la educación en valores, 
+				la educación emocional, el aprendizaje del inglés desde el año, el desarrollo de la persona y la autonomía personal. 
+				En resumen, todo aquello que contribuya a hacer de nuestros niños, en el futuro, personas con valores, libertad y responsabilidad.</p>-->
 
 
 

@@ -8,13 +8,16 @@
 		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		
+		<script type="text/javascript" src="js/menuDesplegable.js"></script>
 		<script type="text/javascript" src="../js/content.js"></script>
+		
 	</head>
 	<body>
 		
 		<header>
 			<div id='div-img-header'>
-				<img id="logo" src="../images/cohete-titulado.png" width="150" height="150">
+				<img id="logo" src="../images/cohete-titulado.png">
 			</div>
 			<nav>
 			<ul>
@@ -34,7 +37,7 @@
 					<p>Conócenos</p>
 					<div id="desplegado" >
 					    <a href="./profesores.html">Nuestros profesores</a>
-					    <a href="./escuela.html">Nuestra escuela</a>
+					    <a href="./galeria.html">Galería de imagenes</a>
 					</div>
 				</li>
 
@@ -57,40 +60,30 @@
 		</div>
 			
 		</header>
-		<section id='escuelaSection'>
-			<div class=divSection>
-				<p>Nuestra escuela cuenta con una larga trayectoria en la educación de los/as niños/as, de 0-6 años. A lo largo de este tiempo, 
-				hemos ido evolucionando, adaptándonos a las exigencias y cambios sociales. 
-				<p>Hemos sido pioneros en la utilización y aplicación de los nuevos métodos y técnicas educativas, 
-				incorporándolas a nuestro sistema de trabajo, con el fin de conseguir la formación integral de nuestros/as alumnos/as.</p>
-<p><h3>Niños en Clase - Escuela Infantil Pequeños Astronautas</h3>
-Los/as alumnos/as que acuden al Centro de Educación Infantil tienen edades comprendidas entre los 0 y los 6 años de edad.
-El número de niños/as que acuden al centro está delimitado por la ratio que estipula la LOE.</p>
- <h3>Profesorado</h3>
- 
-<p>Directora</p>
-<p>Jefa de Estudios</p>
-<p>Maestra/o por aula</p>
-<p>Técnicos de Educación Infantil</p>
-<p>Auxiliares de Educación Infantil</p>
-<p>Auxiliares de comedor</p>
-<p>Psicomotricistas / Logopedas</p>
-<p>Pediatra</p>
-<p>Profesoras actividades extraescolares</p>
-
-
-<h3>Fundamentos del centro</h3>
-<p>1) Desarrollo integral de la personalidad, en los ámbitos motor, cognitivo y afectivo. </p>
-<p>2) Desarrollo social, cooperativo, y de respeto a los demás. </p>
-<p>3) Independencia, y autonomía </p>
-<p>4) Desarrollo de la creatividad. </p>
-<p>5) Fomentar la igualdad entre niños/as </p>
-<p>6) El juego como recurso de la acción educativa </p>
-<p>7) El desarrollo educativo, debe ser global, y activo, teniendo en cuenta el momento evolutivo del niño/a. </p>
-<p>8) La conexión familia - escuela, es necesaria para un mejor desarrollo del niño/a</p> 
-<p>9) Favorecer la investigación y la observación </p>
-			</div>
-		</section>
+		<div id='contenedor'>
+			<section id='galeriaSection'>
+				<div id='galeria'>
+					<img id='imageGaleria' src="./images/escuela/escuela1.jpg" width='720' height='360'></img>
+					<div id='prevDiv'>
+						<img id='prev' src="./images/prev.png" width='45' height='45' onmouseover="cambiarFlechaPrev('Push')" onmouseout="cambiarFlechaPrev('')" onclick='galeriaPrev()'></img>
+					</div>
+					<div id='nextDiv'>
+						<img id='next' src="./images/next.png" width='45' height='45' onmouseover="cambiarFlechaNext('Push')" onmouseout="cambiarFlechaNext('')" onclick='galeriaNext()'></img>
+					</div>
+					</div>
+			</section>
+			<aside>
+				<h3>Zona de Papás</h3>
+				<form id='login' name='login'>
+					<div>Usuario</div>
+					<input type="text" name="usuario"/>
+					<div>Contraseña</div>
+					<input type="password" name="pass"/>
+					<input type="submit" value="Iniciar sesión"/>
+				</form>
+				<a href='#'>Olvidé la contraseña</a>
+			</aside>
+		</div>
 		<footer>
 			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>
 		</footer>

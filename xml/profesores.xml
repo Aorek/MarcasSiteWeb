@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="profesores.xsl"?>
+
+<docentes>
+<profesor numero="1">
+  <foto ruta="../images/fotos/profesor3.jpg"/>
+  <nombre>Maria Sanz Montaran</nombre>
+  <titulacion>Master Titulacion Infantil</titulacion>
+  <email>m.sanz@peqastronautas.com</email>
+</profesor>
+
+<profesor numero="2">
+  <foto ruta="../images/fotos/profesor2.jpg"/>
+  <nombre>Álvaro Garcia Cubidillenco</nombre>
+  <titulacion>Posgrado Educacion Infantil y Psicologia Social</titulacion>
+  <email>a.gar@peqastronautas.com</email>
+</profesor>
+
+<profesor numero="3">
+  <foto ruta="../images/fotos/profesor1.jpg"/>
+  <nombre>Alberto Perez Vampir</nombre>
+  <titulacion>Grado Educacion Infantil y Ciencias Medioambientales</titulacion>
+  <email>a.pe@peqastronautas.com</email>
+</profesor>
+
+<profesor numero="4">
+  <foto ruta="../images/fotos/profesor4.jpg"/>
+  <nombre>Luis Franciso Pavon Perez</nombre>
+  <titulacion>Logopeda Infantil</titulacion>
+  <email>l.pa@peqastronautas.com</email>
+</profesor>
+
+</docentes>

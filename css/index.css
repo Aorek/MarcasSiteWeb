@@ -4,7 +4,19 @@
 		font-size: 25px;
 	}
 	
-	header, footer{
+	h2, h3 {
+	color: #3399ff;
+	}
+	
+	h2 {
+		font-size: 35px;
+	}
+	
+	h3 {
+		font-size: 30px;
+	}
+	
+	header, footer {
 		width: 100%;
 		margin-top: 1em;
 		background-color: #3399ff;
@@ -14,58 +26,61 @@
 
 	#logo {
 		position: relative;
+		width: 350px;
+		height: 150px;
 		top: 5px;
 		margin: 0 auto;
 	}
 	
 	#div-img-header {
-		width: 20%;
+		width: 350px;
 		display: inline-block;
 		padding-left: 10%;
 	}
 
 	nav {
-		width: 55%;
+		margin-left: 20%;
+		width: 550px;
 		display: inline-block;
 		position: relative;
 		bottom: 0.8em;
 		font-size: 27px;
 	}
 
-	ul {
+	nav ul {
+		width: 500px;
 	    list-style-type: none;
 	    margin: 0;
 	    padding: 0;
 	    overflow: hidden;
 	}
 
-	li {
+	nav li {
 		min-width: 110px;
 		text-align: center;
 	    float: left;
 	   	background-color: #2864B5
-	    opacity: 0.95;
 	    margin: 0 1em;
 	    border-radius: 15px;
 	}
 
-	li p {
+	nav li p {
 	    display: inline-block;
 	    color: white;
 	    text-align: center;
 	    text-decoration: none;
 	}
 
-	li:hover{
+	nav li:hover{
 	    background-color: #ffc34d;
 	    
 	}
 	
-	li:hover p {
+	nav li:hover p {
 		color: black;
 	}
 
-	li.desplegable {
+	nav li.desplegable {
 	    display: inline-block;
 	}
 
@@ -95,41 +110,102 @@
 	#iconosSociales{
 		display: inline-block;
 		position: relative;
-		left: 4%;
+		left: 5em;
 		bottom: 5px;
+	}
+	
+	#contenedor {
+		position: relative;
 	}
 	
 	section {
 		width: 960px;
-		margin: 15px auto;
-		position: relative;
+		margin: 15px 0;
+		margin-left: 25%;
+		margin-right: 2.5em;
+		padding: 10px;
 		z-index: 0;
 		background-color: white;
-		opacity: 0.97;
-		
+		opacity: 0.98;
+		display: inline-block;
+		border-radius: 15px;
 	}
 	
-	h2, h3 {
-	color: #3399ff;
+	#carrusel {
+		width: 720px;
+		height: 360px;
+		margin: 3em auto;
+		padding: 20px;
+		position: relative;
+		opacity: 1;
+		background-color: grey;
+		border-radius: 15px;
 	}
 	
-	h2 {
-		font-size: 30px;
+	#prevDiv {
+		position: absolute;
+		bottom: 165px;
+		left: -15px;
 	}
 	
-	h3 {
-		font-size: 30px;
+	#nextDiv {
+		position: absolute;
+		bottom: 165px;
+		right: -15px;
 	}
 	
-	#sectionServicios iframe {
+	/*trasicion para el carrusel
+	#imageCarrusel {
+		opacity: 1.0;
+		transition: all 0.5s;
+	}*/
+	
+	
+	
+	#serviciosSection iframe {
 		width: 100%;
 	}
 	
 	aside {
+		margin: 15px 0;
+		padding: 10px;
+		position: absolute;
+		width: 300px;
 		display: inline-block;
+		background-color: white;
+		opacity: 0.98;
+		border-radius: 15px;
+	}
+	
+	#login {
+		margin-left: 2em;
+		position: relative;
+		top: -1em;
+	}
+	
+	aside a {
+		font-size: 20px;
+		margin-left: 1em;
+		position: relative;
+		top: -1em;
 	}
 	
 	footer {
 		clear: both;
+		padding: 10px;
+		margin-bottom: 0;
 	}
+	
+	#divFooter {
+		width: 980px;
+		margin: 0 auto;
+		left: 200px;
+	}
+	
+	.cajaFooter {
+		display: inline-block;
+		color: black;
+	}
+	
+	
 	
