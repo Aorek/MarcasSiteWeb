@@ -1,0 +1,27 @@
+
+  #galeriaImg {
+		width: 920px;
+		margin: 2em 1em;
+	}
+	
+	.imagen {
+		width: 300px;
+		height: 200px;
+	}
+	
+	#barra {
+		border: 5px solid;
+		border-radius: 15px;
+		width: 65%; 
+		margin: 0 auto;
+	}
+	
+	#divVideo {
+		width: 400px;
+		margin: 0 auto;
+	}
+	
+	#video {
+		width: 400px;
+		height: 300px;
+	}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="profesores.xsl"?>
 
-<docentes>
+<profesores>
 <profesor numero="1">
   <foto ruta="../images/fotos/profesor3.jpg"/>
   <nombre>Maria Sanz Montaran</nombre>
@@ -30,4 +30,4 @@
   <email>l.pa@peqastronautas.com</email>
 </profesor>
 
-</docentes>
+</profesores>

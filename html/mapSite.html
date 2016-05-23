@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Escuela Infantil Pequeños Astronautas</title>
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/mapSite.css">
+		
+		<script type="text/javascript" src="../js/content.js"></script>
+		<script type="text/javascript" src="../js/menuDesplegable.js"></script>
+		<script type="text/javascript" src="../js/carrusel.js"></script>
+		
+	</head>
+	<body>
+		
+		<header>
+			<div id='div-img-header'>
+				<img id="logo" src="../images/cohete-titulado.png">
+			</div>
+			<nav>
+			<ul>
+				<a href="../index.html">
+				  <li class="desplegable">
+				  	<p>Inicio</p>
+				  </li>
+				</a>
+				
+				<a href="./servicios.html">
+					<li class="desplegable">
+						<p>Servicios</p>
+					</li>
+				</a>
+
+				<li class="desplegable" onmouseover='verMenu()' onmouseout='ocultarMenu()'>
+					<p>Conócenos</p>
+					<div id="desplegado" >
+					    <a href="./profesores.html">Nuestros profesores</a>
+					    <a href="./galeria.html">Galería de imagenes</a>
+					</div>
+				</li>
+
+				<a href="./html/contacto.html">
+					<li class="desplegable">
+						<p>Contacto</p>
+					</li>
+				</a>
+
+			</ul>
+		</nav>
+		
+		<div id="iconosSociales">
+			<a href="https://www.facebook.com/" target="_blank">
+				<img id="iconFabe" src="../images/facebBW.png" width="32" height="32" onmouseover="iconoFaceb(1)" onmouseout="iconoFaceb(0)"></a>
+			<a href="https://twitter.com/?lang=es" target="_blank">
+				<img id="iconTwitter" src="../images/twitterBW.png" width="32" height="32" onmouseover="iconoTwitter(3)" onmouseout="iconoTwitter(2)"></a>
+			<a href="https://plus.google.com/" target="_blank">
+				<img id="iconGoogle" src="../images/googleBW.png" width="32" height="32" onmouseover="iconoGoogle(5)" onmouseout="iconoGoogle(4)"></a>
+		</div>
+			
+		</header>
+		<div id='contenedor'>
+			<section id='mapSiteSection'>
+				<ul id='map'>
+				  <li class='map-par'><a href='../index.html'>Inicio</a></li>
+				  <li class='map-impar'><a href='./servicios.html'>Servicios</a></li>
+				  <li class='map-par'><a href='./profesores.html'>Nuestro profesores</a></li>
+				  <li class='map-impar'><a href='./galeria.html'>Galería multimedia</a></li>
+				  <li class='map-par'><a href='./contacto.html'>Contacto</a></li>
+				  <li class='map-par'><a href='./enconstruccion.html'>Aviso Legal</a></li>
+				  <li class='map-par'><a href='./enconstruccion.html'>Política de privacidad</a></li>
+				  <li class='map-par'><a href='./enconstruccion.html'>Política de cookies</a></li>
+				</ul>
+			</section>
+			<aside>
+				<h3>Zona de Papás</h3>
+				<form id='login' name='login'>
+					<div>Usuario</div>
+					<input type="text" name="usuario"/>
+					<div>Contraseña</div>
+					<input type="password" name="pass"/>
+					<input type="submit" value="Iniciar sesión"/>
+				</form>
+				<a href='#'>Olvidé la contraseña</a>
+			</aside>
+		</div>
+		<footer>
+			<div id="divFooter">
+		    <div class="cajaFooter">
+          <ul class = "ulfooter">
+              <li><a href="./enconstruccion.html">Aviso legal</a></li>
+              <li><a href="./enconstruccion.html">Política de privacidad</a></li>
+              <li><a href="./enconstruccion.html">Política de cookies</a></li>
+          </ul>
+    		</div>
+
+	      <div class="cajaFooter">
+	          <ul class = "lista_footer">
+	              <li><a href="./mapSite.html">Mapa web de la página</a></li>
+	              <li><a href="./galeria.html">Galería multimedia</a></li>
+	              <li><a href="./contacto.html">Contacto</a></li>
+	          </ul>
+	      </div>
+      
+	      <div class="cajaFooter">
+	          <img src="../images/img1.jpg" width='100px' height='50px'>
+	          <img src="../images/img2.jpg" width='100px' height='50px'>
+	      </div>
+			</div>
+		</footer>
+	</body>
+</html>

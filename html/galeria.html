@@ -8,8 +8,9 @@
 		<link href='https://fonts.googleapis.com/css?family=Sacramento&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<link rel="stylesheet" type="text/css" href="../css/galeria.css">
 		
-		<script type="text/javascript" src="js/menuDesplegable.js"></script>
+		<script type="text/javascript" src="../js/menuDesplegable.js"></script>
 		<script type="text/javascript" src="../js/content.js"></script>
 		
 	</head>
@@ -37,7 +38,7 @@
 					<p>Conócenos</p>
 					<div id="desplegado" >
 					    <a href="./profesores.html">Nuestros profesores</a>
-					    <a href="./galeria.html">Galería de imagenes</a>
+					    <a href="./galeria.html">Galería multimedia</a>
 					</div>
 				</li>
 
@@ -58,19 +59,25 @@
 			<a href="https://plus.google.com/" target="_blank">
 				<img id="iconGoogle" src="../images/googleBW.png" width="32" height="32" onmouseover="iconoGoogle(5)" onmouseout="iconoGoogle(4)"></a>
 		</div>
-			
 		</header>
 		<div id='contenedor'>
 			<section id='galeriaSection'>
-				<div id='galeria'>
-					<img id='imageGaleria' src="./images/escuela/escuela1.jpg" width='720' height='360'></img>
-					<div id='prevDiv'>
-						<img id='prev' src="./images/prev.png" width='45' height='45' onmouseover="cambiarFlechaPrev('Push')" onmouseout="cambiarFlechaPrev('')" onclick='galeriaPrev()'></img>
-					</div>
-					<div id='nextDiv'>
-						<img id='next' src="./images/next.png" width='45' height='45' onmouseover="cambiarFlechaNext('Push')" onmouseout="cambiarFlechaNext('')" onclick='galeriaNext()'></img>
-					</div>
-					</div>
+				<div id="galeriaImg">
+					<IMG class='imagen' SRC="../images/escuela/escuela1.jpg">
+					<IMG class='imagen' SRC="../images/escuela/escuela2.jpg">
+					<IMG class='imagen' SRC="../images/escuela/escuela3.jpg">
+					<IMG class='imagen' SRC="../images/escuela/escuela4.jpg">
+					<IMG class='imagen' SRC="../images/escuela/escuela5.jpg">
+					<IMG class='imagen' SRC="../images/escuela/escuela7.jpg" >
+				</div>
+				<div id='barra'></div>
+				<div id='divVideo'>
+					<video id="video" controls>
+						<source src="../videos/video1.mp4" type="video/mp4">
+					</video>
+					<!--<button id='play' type='button'>Play</button>-->
+				</div>
+				
 			</section>
 			<aside>
 				<h3>Zona de Papás</h3>
@@ -85,7 +92,29 @@
 			</aside>
 		</div>
 		<footer>
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat temporibus dolores tempora vero perspiciatis doloribus deleniti reprehenderit vel laboriosam. Ratione porro facere placeat recusandae nostrum nobis maxime ex illum, suscipit.</div>
+			<div id="divFooter">
+		    <div class="cajaFooter">
+          <ul class = "ulfooter">
+              <li><a href="./enconstruccion.html">Aviso legal</a></li>
+              <li><a href="./enconstruccion.html">Política de privacidad</a></li>
+              <li><a href="./enconstruccion.html">Política de cookies</a></li>
+          </ul>
+    		</div>
+
+	      <div class="cajaFooter">
+	          <ul class = "lista_footer">
+	              <li><a href="./mapSite.html">Mapa web de la página</a></li>
+	              <li><a href="./galeria.html">Galería multimedia</a></li>
+	              <li><a href="./contacto.html">Contacto</a></li>
+	          </ul>
+	      </div>
+      
+	      <div class="cajaFooter">
+	          <img src="../images/img1.jpg" width='100px' height='50px'>
+	          <img src="../images/img2.jpg" width='100px' height='50px'>
+	      </div>
+			</div>
 		</footer>
 	</body>
+	
 </html>

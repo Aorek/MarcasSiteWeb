@@ -129,6 +129,7 @@
 		opacity: 0.98;
 		display: inline-block;
 		border-radius: 15px;
+		font-family: 'Comic Sans MS';
 	}
 	
 	#carrusel {
@@ -194,6 +195,7 @@
 		clear: both;
 		padding: 10px;
 		margin-bottom: 0;
+		font-size: 24px;
 	}
 	
 	#divFooter {
@@ -204,8 +206,35 @@
 	
 	.cajaFooter {
 		display: inline-block;
+		min-width: 250px; 
+		margin: 0 0.5em;
 		color: black;
 	}
 	
+	#galeriaImg {
+		width: 920px;
+		margin: 2em 1em;
+	}
 	
+	.imagen {
+		width: 300px;
+		height: 200px;
+	}
+	
+	#barra {
+		border: 5px solid;
+		border-radius: 15px;
+		width: 65%; 
+		margin: 0 auto;
+	}
+	
+	#divVideo {
+		width: 400px;
+		margin: 0 auto;
+	}
+	
+	#video {
+		width: 400px;
+		height: 300px;
+	}
 	
