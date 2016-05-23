@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicios>
+  
+  <servicio>
+    <icono>../images/webcam.png</icono>
+    <tipo>Webcam</tipo>
+    <desc>Mediante acceso privado, podéis ver en cada momento la actividad que está realizando tu hijo.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/psicopedagogo.png</icono>
+    <tipo>Psicopedagogo</tipo>
+    <desc>Realizamos una valoración y seguimiento del desarrollo evolutivo de cada uno de nuestros alumnos, para conseguir un desarrollo integral, pleno y armónico que se adapte a las necesidades de cada niño.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/nutricionista.png</icono>
+    <tipo>Nutricionista</tipo>
+    <desc>Servicio de comedor propio, todos los menús servidos en nuestros centros son supervisados y validados por dietistas nutricionistas de la Consultoría Cesnut Nutrición.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/escuelapadres.png</icono>
+    <tipo>Escuela de padres</tipo>
+    <desc>Realizamos charlas trimestrales gratuitas en los centros. Queremos ayudaros en la educación de vuestros hijos.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/verano.png</icono>
+    <tipo>Escuela de verano</tipo>
+    <desc>Durante los meses de Julio y Agosto abrimos las puertas de nuestros centros para niños hasta los 6 años de edad.</desc>
+  </servicio>
+  
+  
+  <servicio>
+    <icono>../images/horarios.png</icono>
+    <tipo>Horario flexible</tipo>
+    <desc>Contamos con un horario flexible y amplio, de 7 a 21 horas. Nos adaptamos a ti.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/becvas.png</icono>
+    <tipo>Becas y ayudas</tipo>
+    <desc>Las familias podrán beneficiarse de las becas para educación infantil que concede la Comunidad Autónoma correspondiente.</desc>
+  </servicio>
+  
+  <servicio>
+    <icono>../images/academiadeingles.png</icono>
+    <tipo>Academia de inglés</tipo>
+    <desc>Ofrecemos clases extraescolares de inglés en horario de tarde dirigidas a niños con edades comprendidas entre 1 y 6 años.</desc>
+  </servicio> 
+  
+  <servicio>
+    <icono>../images/talleres.png</icono>
+    <tipo>Talleres</tipo>
+    <desc>Nuestras escuelas ofrecen, tanto para padres como para educadoras, diferentes talleres de formación.</desc>
+  </servicio>
+  
+</servicios>

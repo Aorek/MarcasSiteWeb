@@ -20,7 +20,3 @@ function verMenu(){
 function ocultarMenu(){
 	document.getElementById('desplegado').style.display='none';
 }
-
-
-
-
