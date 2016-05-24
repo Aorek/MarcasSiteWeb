@@ -1,0 +1,21 @@
+
+  #servicios {
+    width: 100%
+    margin 2em auto;
+    font-family: "Comic Sans MS";
+    font-size: small;
+  }
+  .celdaServicios {
+		width: 250px;
+		min-height: 200px;
+		margin: 5px;
+		padding: 10px 20px;
+		float: left;
+		text-align: justify;
+		background-color: #ffc34d;
+		border-radius: 15px;
+	}
+	
+	div.celdaIcon p, div.celdaIcon h3 {
+		display: inline-block;
+	}

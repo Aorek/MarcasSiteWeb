@@ -3,12 +3,15 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
    <html>
+     <head>
+       <link rel="stylesheet" type="text/css" href="../css/profesores.css"></link>
+      </head>
    <body>
       
 
          
     <xsl:for-each select="personas/persona">
-      <div class="persona">
+      <div class="divpersona">
       <xsl:element name="img">
       <xsl:attribute name="src">
       <xsl:value-of select="img/@ruta"/>

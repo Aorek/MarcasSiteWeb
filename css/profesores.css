@@ -1,0 +1,16 @@
+.divpersona { 
+  background-color: #ffc34d;
+  border-radius: 15px;
+  margin: 10px; 
+  padding: 10px;
+  font: bold 17px arial; 
+  margin: 5px;
+  width: 400px;
+  padding: 5px;
+  display: inline-block;
+}
+.divpersona li { 
+  list-style-type: square; font: normal 14px arial;
+  margin: 5px;
+  font-family: "Comic Sans MS";
+}
